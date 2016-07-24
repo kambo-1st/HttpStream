@@ -1,0 +1,26 @@
+{
+    "name": "kambo/httpstream",
+    "description": "Kambo httpstream additional streams for the PSR-7",
+    "license": "MIT",
+    "type": "library",    
+    "keywords": ["http", "httpmessage", "streams", "PSR-7"],
+    "authors": [
+        {
+            "name": "Bohuslav Simek",
+            "email": "bohuslav@simek.si"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "kambo/httpmessage": "dev-master"
+    },  
+    "require-dev": {
+        "phpunit/phpunit": "4.6.10",
+        "mikey179/vfsStream": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kambo\\Http\\Stream\\": "src"
+        }
+    }
+}
