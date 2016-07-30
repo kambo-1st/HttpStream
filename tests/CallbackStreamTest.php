@@ -4,7 +4,7 @@ namespace Test;
 // \Spl
 use Exception;
 
-// \HttpStream
+// \Http\Stream
 use Kambo\Http\Stream\CallbackStream;
 
 /**

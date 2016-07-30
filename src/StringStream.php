@@ -8,11 +8,11 @@ use Exception;
 // \Psr
 use Psr\Http\Message\StreamInterface;
 
-// \HttpMessage
-use Kambo\HttpMessage\Stream;
+// \Http\Message
+use Kambo\Http\Message\Stream;
 
 /**
- * Describes a data stream, instiazed using string.
+ * Describes a data stream, instantiate using string.
  *
  * It provides a wrapper around the most common operations, including serialization of
  * the entire stream to a string.
