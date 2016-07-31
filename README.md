@@ -20,7 +20,7 @@ Prefered way to install library is with composer:
 composer require kambo/httpstream
 ```
 
-## Usage
+### Basic usage
 
 ### StringStream
 String stream is simple synthetic sugar that allows instantiation of stream from the string. Implementation create temporary resource which will be used as base for the StringStream and it is fully compatible with the PSR-7 stream.
